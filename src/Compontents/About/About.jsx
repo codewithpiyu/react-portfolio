@@ -14,23 +14,27 @@ const About = () => {
                         <IoArrowForward size = {30} className= "mt-1"/>
                         <span className='w-96'>
                             <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Frontend developer</h1>
-                            <p className='text-sm md:text-md leading-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio fuga maiores, ea quo repellendus suscipit doloribus ut voluptate pariatur, iste ipsam culpa nesciunt deserunt sequi laboriosam commodi nobis! Dicta, enim!</p>
+                            <p className='text-sm md:text-md leading-tight'>"I’m a Front-End Developer with a passion for transforming creative ideas into beautiful, functional web applications. My expertise lies in [specific skills/tools], and I’m committed to delivering seamless user experiences."</p>
                         </span>
                     </div>
                     <div className='flex gap-3 py-4'>
                         <IoArrowForward size = {30} className= "mt-1"/>
                         <span className='w-96'>
                             <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Backend developer</h1>
-                            <p className='text-sm md:text-md leading-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio fuga maiores, ea quo repellendus suscipit doloribus ut voluptate pariatur, iste ipsam culpa nesciunt deserunt sequi laboriosam commodi nobis! Dicta, enim!</p>
+                            <p className='text-sm md:text-md leading-tight'>"I’m a Backend Developer with [X years] of experience in building secure, scalable, and efficient server-side applications. I specialize in [technologies] and am passionate about creating systems that support seamless user experiences."</p>
                         </span>
                     </div>
                     <div className='flex gap-3 py-4'>
                         <IoArrowForward size = {30} className= "mt-1"/>
                         <span className='w-96'>
-                            <h1 className='text-xl md:text-2xl font-semibold leading-normal'>DataBase developer</h1>
-                            <p className='text-sm md:text-md leading-tight'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio fuga maiores, ea quo repellendus suscipit doloribus ut voluptate pariatur, iste ipsam culpa nesciunt deserunt sequi laboriosam commodi nobis! Dicta, enim! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus accusantium eaque magni perferendis, voluptate numquam fugiat magnam id dolores, similique sint? Quibusdam hic pariatur dolore omnis dolor iusto amet quos?</p>
-                        </span>
-                    </div>
+                            <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Web Designing</h1>
+                            <p className='text-sm md:text-md leading-tight'>
+                            Web design involves creating the visual layout and aesthetics of a website, focusing on user experience, graphics, and overall look. Front-end development, on the other hand, involves implementing the design into a functional website using coding languages like HTML, CSS, and JavaScript.
+                                
+                          
+                          </p>
+                          </span>
+                          </div>
                 </ul>
             </div>
         </div>
@@ -39,4 +43,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;
