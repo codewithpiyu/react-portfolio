@@ -1,5 +1,4 @@
 import React from "react";
-import profile from "../../assets/profile.jpg";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -94,7 +93,7 @@ return (
        
       
       <ul className="text-sm md:text-xl">
-
+     
         
         <li className="flex gap-1 items-center ">
           <MdOutlineEmail size={20} />
