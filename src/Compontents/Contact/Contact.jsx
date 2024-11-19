@@ -94,11 +94,7 @@ return (
        
       
       <ul className="text-sm md:text-xl">
-      <div className="flex justify-center ">
-  <div className="h-16 w-16  animate-pulse rounded-full bg-slate-200 mb-20 ">
-     <img className = "rounded-full min-h-24  w-16" src = {profile} alt=""/>
-  </div>
-</div>
+
         
         <li className="flex gap-1 items-center ">
           <MdOutlineEmail size={20} />
