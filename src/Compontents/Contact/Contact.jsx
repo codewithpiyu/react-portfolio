@@ -36,14 +36,14 @@ const Contact = () => {
           setIsSubmitting(true);
           try{
             await emailjs.send(
-              "service_u9tenp9",
-              "template_bwpen5n",
+              "service_fpblyet",
+              "template_ganvt8h",
               {
                 name: formValues.name,
                 email:formValues.email,
                 message:formValues.message,
               },
-              "DNU7YKWf0w1kqXJJP"
+              "tAXHTy9uXdGQRlr-g"
 
             );
             setSuccessMessage("Message sent successfully!");
