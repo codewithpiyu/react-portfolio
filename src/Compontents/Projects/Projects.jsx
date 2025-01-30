@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import musicPlayer from "../../assets/music_player.png";
 import shoppysite from "../../assets/image_heading.png";
+import electronic from "../../assets/electronicimg.png";
 const Projects = () => {
   return (
     <div id="Projects" className="p-10 md:p-24 text-white ">
@@ -23,9 +24,11 @@ const Projects = () => {
           main="A Shopify app that helps businesses drive in-store purchases by adding local pickup and stock in-store Offers features such as an in-store stock checker, click and collect rules, and stock buffers A small, often independent retail store that sells upscale gourmet foods. "
         />
         <ProjectCard
-          title="tinu"
-          url="https://www.google.com"
-          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
+          title="Eelectronic_Website"
+          image = {electronic}
+          url="https://codewithpiyu.github.io/Ecom-website/"
+          sourceCode="https://codewithpiyu.github.io/Ecom-website/"
+          main="Electronic Store offers a diverse range of gadgets, from smartphones to smart home devices, ensuring you find what you need to elevate your lifestyle and meet your tech requirements.Welcome to electronic eComStore, your ultimate destination for cutting-edge gadgets!"
         />
         
       </div>
